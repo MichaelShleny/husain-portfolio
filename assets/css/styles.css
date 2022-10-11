@@ -271,6 +271,7 @@ img {
 
 .about__text {
   margin-bottom: var(--mb-4);
+  color:black;
 }
 
 .about__profession {
@@ -295,13 +296,14 @@ img {
 
 .skills__container {
   row-gap: 2rem;
-  width: 100%;
+  padding: 24px;
 }
 
 .skills__box{
-  max-width: 1024px;
   background-image: linear-gradient(black, grey);
-  border-radius: 5%;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1020px;
 }
 
 .skills__box1{
