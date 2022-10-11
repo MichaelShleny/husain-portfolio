@@ -299,7 +299,7 @@ img {
 }
 
 .skills__box{
-  width: 1024px;
+  max-width: 1024px;
   background-image: linear-gradient(black, grey);
   border-radius: 5%;
 }
