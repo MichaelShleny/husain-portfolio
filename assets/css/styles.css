@@ -295,7 +295,32 @@ img {
 
 .skills__container {
   row-gap: 2rem;
+  width: 100%;
 }
+
+.skills__box{
+  width: 1024px;
+  background-image: linear-gradient(black, grey);
+  border-radius: 5%;
+}
+
+.skills__box1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills__box2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box__set1{
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
 
 .skills__subtitle {
   color: var(--first-color);
@@ -323,11 +348,20 @@ img {
 
 .skills__img img {
   border-radius: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 0;
 }
 
 /* ===== PORTFOLIO =====*/
 .portfolio {
-  
+  /**/
   background-color: white;
 
   height: 100vh;
